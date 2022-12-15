@@ -1,11 +1,11 @@
-#include "main.h"
+include "main.h"
 
 /**
- * _isupper - this is a function to check upper case alphas
- * @c: an integer paramer
- * Return: something but success
- */
+  * _isupper - check if a letter is upper
+  * @c: an integer parameter
+  * Return: something but success
+  */
 int _isupper(int c)
 {
-	return (c >= 'A' && c <= 'Z');
+	if (c >= 'A' && c <= 'Z')
 }

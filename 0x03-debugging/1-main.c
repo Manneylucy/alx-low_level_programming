@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - causes an ifinite loop
+ * main -cause an infinite loop
  * Return: 0
  */
 
 int main(void)
 {
 	int i;
-	printf("infinite loop incoming :(\n");
 
+	printf("Infinite loop incomig :(\n");
+	
 	i = 0;
-	/*
+
+	/**
 	 * while (i < 10)
 	 * {
 	 * putchar(i);
